@@ -1,0 +1,31 @@
+{
+  "name": "ExecuteWyse Fleet",
+  "dataColors": [
+    "#1F6FEB", "#12B886", "#F59F00", "#E03131", "#7048E8",
+    "#1098AD", "#F76707", "#2B8A3E", "#868E96", "#495057"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#212529",
+  "tableAccent": "#1F6FEB",
+  "good": "#12B886",
+  "neutral": "#F59F00",
+  "bad": "#E03131",
+  "maximum": "#E03131",
+  "center": "#F59F00",
+  "minimum": "#12B886",
+  "textClasses": {
+    "title":    { "fontSize": 14, "fontFace": "Segoe UI Semibold", "color": "#212529" },
+    "header":   { "fontSize": 12, "fontFace": "Segoe UI Semibold", "color": "#495057" },
+    "callout":  { "fontSize": 32, "fontFace": "Segoe UI",          "color": "#1F6FEB" },
+    "label":    { "fontSize": 10, "fontFace": "Segoe UI",          "color": "#495057" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } } }],
+        "border":     [{ "show": true, "color": { "solid": { "color": "#E9ECEF" } }, "radius": 6 }],
+        "title":      [{ "show": true, "fontColor": { "solid": { "color": "#212529" } }, "fontSize": 12 }]
+      }
+    }
+  }
+}

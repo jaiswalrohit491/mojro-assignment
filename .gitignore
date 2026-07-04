@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+
+# Regenerable in ~3s via `python src/pipeline.py`. The compact shipped database
+# output/fleet.duckdb IS committed (deliverable #2); the bulky CSV/Parquet
+# exports are not.
+output/exports/
